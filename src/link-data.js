@@ -24,4 +24,14 @@ export const link_data = [
         url: "responsivelist",
         resource: ""
     },
+    {
+        title: "Rotating Glowing Border",
+        url: "rotatingglowingborder",
+        resource: "https://www.youtube.com/watch?v=-VOUK-xFAyk&ab_channel=KevinPowell"
+    },
+    {
+        title: "User Resize Div",
+        url: "userresizediv",
+        resource: "https://www.youtube.com/shorts/Adqudv8o5PQ"
+    },
 ];

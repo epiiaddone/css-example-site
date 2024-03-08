@@ -7,6 +7,8 @@ import BackgroundGradients from './pages/BackgroundGradients'
 import DirectionAwareUnderline from './pages/DirectionAwareUnderline'
 import FooterSmallContent from './pages/FooterSmallContent'
 import ResponsiveList from './pages/ResponsiveList'
+import RotatingGlowBorder from './pages/RotatingGlowBorder'
+import UserResizeDiv from './pages/UserResizeDiv'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path="directionawarenavunderline" element={<DirectionAwareUnderline />} />
         <Route path="footerforsmallcontent" element={<FooterSmallContent />} />
         <Route path="responsivelist" element={<ResponsiveList />} />
+        <Route path="rotatingglowingborder" element={<RotatingGlowBorder />} />
+        <Route path="userresizediv" element={<UserResizeDiv />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
